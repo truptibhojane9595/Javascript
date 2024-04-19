@@ -33,6 +33,8 @@
 // // console.log(user);
 // console.log(user.puja);
 // console.log(user.fname);
+
+
 // let arr = [1,2,3,4,5,6,7];
 // console.log(arr(-1));
 // let arr = ["shika"];
@@ -64,7 +66,7 @@
 // console.log(arr);
 // console.log(arr[4]);
 
-let arr = new Array(5);
-console.log(arr);
-console.log(arr.length);
-console.log(arr[0]);
+// let arr = new Array(5);
+// console.log(arr);
+// console.log(arr.length);
+// console.log(arr[0]);

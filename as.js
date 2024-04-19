@@ -44,9 +44,9 @@
 // let b = 3;
 // let quotient = a/b;
 // console.log(`quotient : ${quotient}`);
-// let module = a%b;
-// console.log(`module:${module}`);
-// console.log(`integent part :${quotient-module/b}`);
+// let module1 = a%b;
+// console.log(`module:${module1}`);
+// console.log(`integent part :${quotient-module1/b}`);
 
 
 // let num = 10_000_567;
@@ -54,8 +54,9 @@
 // let num = 1e7;
 // console.log(num);
 
-// let num= 23e5;
+// let num1= 23e5;
 // let num = 2.3e6;
+// console.log(num1);
 // console.log(num);
 
 // let num = 56_000_000_000;
@@ -63,14 +64,15 @@
 // console.log(num);
 
 // let num = 0.02;
-// let num = 2e-2;
+// let num1 = 2e-2;
 // console.log(num);
+// console.log(num1);
 
 // let num = 1.23e3;
 // console.log(num);
 
 // //Math.floor
-// console.log((Math.floor(3.1));// down to the nearest value 
+// console.log(Math.floor(3.1));// down to the nearest value 
 // console.log(Math.floor(-3.1));
 
 // //Math.ceil
@@ -147,7 +149,7 @@
 // let a = [1,2,3,4,5];
 // console.log(a.slice(2,4));
 // console.log(typeof(NaN));
-// // console.log("1"--"1");
+// console.log("1"--"1");
 
 // let x =5;
 // let y = x++;

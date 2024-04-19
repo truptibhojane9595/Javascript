@@ -1,5 +1,5 @@
 // let arr = ["Trupti","sonal","puja"];
-// let arr = new Array[];
+// let arry = new Array();
 
 // let arr = ["Trupti","sonal","puja"];
 // console.log(arr);
@@ -27,8 +27,8 @@
 // console.log(arr[-1]); // undefine because in that no value in -1 place
 // console.log(arr[arr.length-1]);
 
-let arr = [1,2,3,4,5,6,7];
-console.log(arr[-1]);
+// let arr = [1,2,3,4,5,6,7];
+// console.log(arr[-1]);
 // let arr = ["shika"];
 // let arr2 = arr;
 // arr
@@ -37,7 +37,6 @@ console.log(arr[-1]);
 // let arr =[];
 // arr [99]="trupti";
 //  console.log(arr);
-
 // console.log(arr.length);
 
 // let arr = [1, 2, 3, 4, 5];
@@ -49,12 +48,12 @@ console.log(arr[-1]);
 // console.log(arry);
 
 // let arr =[1,2,3,4,5,6,7];
-
+// let arr = []
 // arr[21]="tr";
 // console.log(arr.length);
 // console.log(arr);
-// arr.length=3;
-// console.log(arr);
+//  arr.length=3;
+//  console.log(arr);
 // arr.length=5;
 // console.log(arr);
 // console.log(arr[4]);
@@ -106,6 +105,7 @@ console.log(arr[-1]);
 // let arr = [1,2,3,4,5];
 // arr.shift();
 // console.log(arr);
+
 // arr.unshift();
 // console.log(arr);
 
@@ -169,7 +169,7 @@ console.log(arr[-1]);
 // console.log(arr);
 // arr.splice(0,0,6,7,8);
 // console.log(arr);
-// arr.splice(0,0,6,7,8);
+// arr.splice(-1,0,6,7,8);
 // console.log(arr);
 
 

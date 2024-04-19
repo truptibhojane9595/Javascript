@@ -22,15 +22,15 @@
 // if (str.indexOf("this") != -1){
 //     console.log("found")
 // }
-// console.log(str.indexOf("this"));// give index
-// console.log(str[0]); //gives character
+//  console.log(str.indexOf("this"));// give index
+//  console.log(str[0]); //gives character
 
 
 // let str = " this is a string";
 // if (str.indexOf("this") === 0){
 //     console.log("found")
 // }
-// 
+
 
 
 // let str = "This is a string";
@@ -47,12 +47,13 @@
 // console.log("Hello".endsWith("lo"));
 
 
-//  let str = "This is a string";
+// let str = "This is a string";
 // console.log(str.slice(0,3));
-//  console.log(str.slice(5,8));
+// console.log(str.slice(5,8));
 // console.log(str.slice(0));
 // console.log(str.slice(-6));
-//  console.log(str.slice(5,-6));
+// console.log(str.slice(5,-6));
+
 
 //substring = Extract the chaaracter from a string ,between two specified indices
 // let str = "this is a string";
@@ -97,8 +98,8 @@
 // given length
 
 // padstart() = pads a string with another string ,untill the resulting string reachesthe given length
-let str = "5";
-console.log(str.padStart(4,"0"));
+// let str = "5";
+// console.log(str.padStart(4,"0"));
 
 
 

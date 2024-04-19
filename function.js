@@ -50,6 +50,8 @@
 // greet()
 // console.log(fname);
 
+
+
 // let fname="trupti";
 // function sayhello ( ){
 //     fname="vishakha" 
@@ -84,7 +86,7 @@
 // greet();
 // greet(undefined,"mumbai");
 // greet(" ","india");
- //  greet( ,"india");
+//   greet( ,"india");
 
 
 // function age(name,age){
@@ -169,8 +171,45 @@
 // let arr = [10, 20, 30, 40, 50];
 // fun
 
+// console.log("1"--"1");
+
+// console.log(Boolean(" "));
+// console.log("B"+"a"+"a"+"a");
+
+// console.log("B" + "a" + "a" + "a");
 
 
+// console.log(a);
+// let a = "renu";
+// in js every function treet as variable
+
+
+// function scope(){
+//     const a = 10;
+//     console.log(a);
+//     {
+//         // const a= 20;
+//         console.log(a);
+//     }
+// }
+// scope();
+
+// function syhello(){
+//     if(true){
+//         let a = 10;
+//         console.log(a,"inside");
+            
+//         }
+//         console.log(a,"outside");
+//     }
+// syhello();
+// console.log(a,"outside");
+
+// let a = 20;
+// {
+//     var a= 10;
+// }
+// console.log(a);
 
 
 
