@@ -21,7 +21,7 @@
 // console.log(fname);//frame not define because of fnme is in scope
 
 
-// function greet(){
+ // function greet(){
 //     let fname = "john";
 //     console.log("hello" + fname);
 // }
@@ -105,7 +105,7 @@
 
 
 // function greet(name,age=22){
-//     console.log("hello "+ name + " you are " + age + "year  old");
+//     console.log("hello "+ name + " you are " + age + " year  old");
 // }
 // greet("gayatri",20);
 // console.log();
@@ -133,6 +133,8 @@
 // }
 
 // greet("delhi");
+
+
 //  function arry(arr){
 //     console.log(arr);
 //  }
@@ -169,11 +171,11 @@
 // printArrayElements(myArray); // Prints each element of the array
 
 // let arr = [10, 20, 30, 40, 50];
-// fun
 
 // console.log("1"--"1");
 
 // console.log(Boolean(" "));
+
 // console.log("B"+"a"+"a"+"a");
 
 // console.log("B" + "a" + "a" + "a");
@@ -188,19 +190,19 @@
 //     const a = 10;
 //     console.log(a);
 //     {
-//         // const a= 20;
+//         const a= 20;
 //         console.log(a);
 //     }
 // }
 // scope();
 
-// function syhello(){
+// function syhello(){   
 //     if(true){
 //         let a = 10;
 //         console.log(a,"inside");
             
 //         }
-//         console.log(a,"outside");
+//         // console.log(a,"outside");
 //     }
 // syhello();
 // console.log(a,"outside");

@@ -70,7 +70,7 @@
 
 // let num = 1.23e3;
 // console.log(num);
-
+                //    ....................math mathod...............
 // //Math.floor
 // console.log(Math.floor(3.1));// down to the nearest value 
 // console.log(Math.floor(-3.1));
@@ -155,3 +155,102 @@
 // let y = x++;
 // console.log(y);
 // console.log(Math.round(7.5));
+// nullish coaliching operator
+// result of a ?? b is:
+// a : if a is define then a ,
+// b : if a is undefined then b,
+
+// let a = undefined;
+// console.log(a ??  "hello");
+
+// let a;
+// console.log(a ??  "hello");
+
+// let a = "";
+// console.log(a ??  "hello");
+// console.log(a ||  "hello");
+
+
+// let a = null;
+// console.log(a ??  "hello");
+// console.log(a ||  "hello");
+
+
+
+// let a = 5;
+// console.log(a ??  "hello");
+// console.log(a ||  "hello");
+
+
+// let b = undefined;
+// console.log(a ??  "hello");
+// console.log(a ||  "hello");
+
+
+// let firstname;
+// let lastname;
+// let nickname = "super";
+// console.log( firstname ?? lastname ?? nickname ?? "salman");
+
+// let h = 0;
+// console.log(h ?? 100);
+// console.log(h || 100);
+
+// let height = 10;
+// let width;
+// let area = (height ?? 100) * (width ?? 50);
+// console.log(area);
+
+
+// let height ;
+// let width = 10;
+// let area = (height ?? 100) * (50 ?? width);
+// console.log(area); // code will be run left to right
+
+
+// falsy values
+// console.log(Boolean(false));      // false
+// console.log(Boolean(0));          // false
+// console.log(Boolean(""));         // false
+// console.log(Boolean(null));       // false
+// console.log(Boolean(undefined));  // false
+// console.log(Boolean(NaN));        // false
+
+// // Everything else is truthy
+// console.log(Boolean(true));       // true
+// console.log(Boolean(1));          // true
+// console.log(Boolean("Hello"));    // true
+// console.log(Boolean({}));         // true
+// console.log(Boolean([]));         // true
+
+//string comparision
+// console.log("Z" > "A");
+// console.log("A" > "B");
+// console.log("Priyanka " > "Punam");
+//  console.log("mee" > "me");
+//  console.log("Priya " > "Priyanka");
+//  console.log("a" > "A");
+// console.log("2" > 1);
+// console.log("01" == 1);
+// console.log(true > 0);
+//console.log(false >  0);
+// console.log(true == 1);
+// console.log("A" > 0); // string not compare to num
+// console.log("56" > 0) // string convert into num after that compare
+// console.log(Boolean("0"));
+// console.log(Boolean(0));
+// console.log(null == undefined);
+// console.log(null === undefined);
+// console.log( undefined == 0); //undefined only  compare with null not any other
+// console.log( undefined > 0);
+//  console.log( undefined < 0);
+
+// function swap (){
+//     let temp = a;
+//     a = b;
+//     b = temp;
+//     return [a,b];
+// }
+// let a = 10;
+// let b = 30;
+// console.log(swap(a,b));

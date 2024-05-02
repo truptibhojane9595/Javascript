@@ -80,9 +80,22 @@
 
 // 12. Write a JavaScript program to convert temperature from Celsius to Fahrenheit and vice versa.
 // let celsius = 37;
-// let fahrenheit = (celsius * 9/5) + 32;
-// console.log("fahrenheit = ",fahrenheit);
-
+// function celsiusToFahrenheit(celsius) {
+//     var fahrenheit = (celsius * 9/5) + 32;
+//     return fahrenheit;
+//   }
+  
+//   function fahrenheitToCelsius(fahrenheit) {
+//     var celsius = (fahrenheit - 32) * 5/9;
+//     return celsius;
+//   }
+  
+//   var celsiusTemp = 30;
+//   var fahrenheitTemp = 86;
+  
+//   console.log(celsiusTemp + " Celsius is equal to " + celsiusToFahrenheit(celsiusTemp) + " Fahrenheit.");
+//   console.log(fahrenheitTemp + " Fahrenheit is equal to " + fahrenheitToCelsius(fahrenheitTemp) + " Celsius.");
+  
 
 // 1. Write a program that checks if a given number is even or odd.
 // function evenodd(num){
@@ -165,19 +178,19 @@
 //         return "F";
 //     }
 // }
-// console.log(calculateGrade(85)); 
+// console.log(Grade(85)); 
 
 // // 8. Create a program that determines if a given string is a palindrome.
 // function palindrome(string){
-    //     const len = string.length;
-    //     for(let i = 0;i<len/2;i++){
-    //         if(string[i] !== string[len-1-i]){
-    //             return "not-palindrome";
-    //         }
-    //         return "palindrome";
-    //     }
-    // }
-    // console.log(palindrome("mam"));
+//         const len = string.length;
+//         for(let i = 0;i<len/2;i++){
+//             if(string[i] !== string[len-1-i]){
+//                 return "not-palindrome";
+//             }
+//             return "palindrome";
+//         }
+//     }
+//     console.log(palindrome("mam"));
     
 
 // // 9. Write a function that checks whether a person is eligible to vote based on their age.
@@ -222,6 +235,7 @@
 // let a = 5;
 // let k = 5*5;
 // console.log(k);
+
 // 3. Take two numbers and only print the integer part when a is divided by b
 // let a = 5;
 // let b = 3;
@@ -231,29 +245,123 @@
 // 4. Take a number and print out the last digit of the number.
 // let a = 456;
 // console.log(a%10);
+
 // 5. Take a number and find the cube of that number
 // let a = 5
 // console.log(a*a*a);
+
 // 6. Take a 3 digit number and print the reverse of that number.
 //     Ex - 235 = 532
-let b = 235;
-let r = b%10;
+// function reversed(number){
+//     const reverse =number.toString().split('').reverse().join('');
+//     return reverse;
+// }
 
+
+// console.log(reversed(235));
 // 7. Take a number and print out the first digit of the number.
 //     Ex - 145 = 1, 789 = 7;
+// function firstDigit(number) {
+//     const first = number.toString()[0];
+//     return first;
+// }
+
+// // Example usage:
+// const inputNumber = 145;
+// const first = firstDigit(inputNumber);
+// console.log(first); 
+
 // 8. Take a number and return the sum of the first and last digit.
 //     ex - 10 = 1+0 = 1, 452 = 4+2=7
-// 9. Take the salary of five employees and print the average salary of all the employees.
+// function sumFirstAndLastDigit(number) {
+//     const numString = number.toString();
+//     const firstDigit = (numString[0]);
+//     const lastDigit = number%10;
+//     const sum = firstDigit + lastDigit;
+//     return sum;
+// }
+
+// // Example usage:
+// const inputNumber = 452;
+// const sum = sumFirstAndLastDigit(inputNumber);
+// console.log(sum); // Output: 7
+
+//  9. Take the salary of five employees and print the average salary of all the employees.
+// function averageSalary(salaries) {
+//     let total = 0;
+//     for (let i = 0; i < salaries.length; i++) {
+//         total += salaries[i];
+//     }
+//     const average = total / salaries.length;
+//     return average;
+// }
+
+// // Example usage:
+// const salaries = [2500, 3000, 2800, 3200, 2700];
+// const average = averageSalary(salaries);
+// console.log(average); 
+
 // 10. Take two numbers and swap them.
 //     Ex - a = 10, b=5; => a=5, b=10;
 
+// function swapNumbers(a, b) {
+    
+//     let temp = a;
+//     a = b;
+//     b = temp;
+
+//     console.log("After swapping:");
+//     console.log("a =", a);
+//     console.log("b =", b);
+// }
+
+// const a = 10;
+// const b = 5;
+// swapNumbers(a, b);
 
 
+// const result = "2024" - "1992";
+// let value = 9;
+// const result = value++;
+// console.log(result);
+// let str = "apple";
+// console.log(str.slice(-3));
+//  let str = "Hello, World";
+// let result = str.substr(6);
 
+// console.log(str.split("").reverse().join(""));
+// let str = "Vanashri";
+// let result = str.padEnd(10, "!");
+// let arr = [1,2,3,4,5];
+// let result = arr.find((x) =>x> 3);
 
+// console.log(result);
 
+// console.log(typeof typeof 1);
+// let a = [1,2,3];
+// a[9] =a[1+1];
+// console.log(a[9]);
 
+// function swap(a, b) {
+//     a = a + b;
+//     b = a - b;
+//     a = a - b;
+//     return [a, b]; 
+// }
 
+// let a = 4;
+// let b = 5;
+// console.log(swap(a, b));
+
+// function swap(a,b){
+//     a = a+b;
+//     b = a-b;
+//     a = a-b;
+//     return [a,b];
+// }
+// let a = 4;
+// let b= 5;
+// console.log(swap(a,b));
 
 
 
