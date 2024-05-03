@@ -1,7 +1,6 @@
 //Prototypes = 
 // Every object in js has a prototype and prototypes has also as an object
 
-const { method, property } = require("lodash")
 
 // const morehobbies={
 //     "hobby3":"reading",
