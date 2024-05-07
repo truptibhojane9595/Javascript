@@ -23,7 +23,7 @@
 
 // prototype chain = chek a value if he finding  a null value
 
-//......................................................Object.create() method...........................................
+//................................................Object.create() method...........................................
 
 // Object.create() =
 // It create a new Object,using an existing Object as a prototype of a newly create.

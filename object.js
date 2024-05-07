@@ -150,6 +150,7 @@
 //     name:'trupti',
 //     age:20,
 //     "my game":"batmintan",
+
 // }
 // console.log(typeof user);
 // const key1= Object.keys(user);

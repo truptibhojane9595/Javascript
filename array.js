@@ -164,8 +164,8 @@
 // console.log([7] + 1 + 2);
 
 
-// console.log([] == []);..............................
-// // console.log(typeof []);
+// console.log([] == []);//..............................
+// console.log(typeof []);
 // console.log(""=="");
 //  console.log(""==0);
 // console.log(""==false);

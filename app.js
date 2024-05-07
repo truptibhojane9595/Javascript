@@ -21,7 +21,7 @@
 // console.log(obj,"main-object");
 // console.log(obj);
 // cloneobj.name = "puran";
-// clone.obj.location.city.city1="mumbai";
+// cloneobj.location.city.city1="mumbai";
 // cloneobj["location"]["city"]["city2"] = "Kolkata";
 
 // cloneobj.sayBye = function(){
@@ -62,7 +62,7 @@
 
 //Dry Principle = Dont repeat yourself
 
-// favtory function = function that return an object
+// factory function = function that return an object
 
 // function createstudent(name,age){
 //     return  {

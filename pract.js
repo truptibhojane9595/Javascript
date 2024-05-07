@@ -3,15 +3,15 @@
 //  let newarr = arr.reduce((acc,element) => acc+element,0);
 //  console.log(newarr);
 
-function sumarr(arr){
-    let sum=0;
-    for(let i=0;i<arr.length();i++){
-        sum+=i;
-    }
-     return sum;
-}
-let result = [1,2,3,4,5,6,7,8,9];
-console.log(sumarr(result));
+// function sumarr(arr){
+//     let sum=0;
+//     for(let i=0;i<arr.length();i++){
+//         sum+=i;
+//     }
+//      return sum;
+// }
+// let result = [1,2,3,4,5,6,7,8,9];
+// console.log(sumarr(result));
 
 // //  Average of Array Elements: Write a function to calculate the average of all elements in an array of integers.
 //  function avarage(array) {
@@ -65,9 +65,12 @@ console.log(sumarr(result));
 //     for (let i = 0; i < arr.length; i++) {
 //         if (arr[i] === element) {
 //             return i; 
-//         }
+//         }else{
+//     return -1;
+// }
+
 //     }
-//     return -1; 
+//     // return -1; 
 // }
 
 // let arr = [1, 2, 3, 4, 5];

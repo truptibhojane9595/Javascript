@@ -23,7 +23,7 @@
 // name = "Anjali";
 
 // console.log(1 + "1" - 1);
-// console.log(typeof number);
+// console.log(typeof (number));
 
 // let number = 0;
 // console.log(number++);
@@ -55,6 +55,7 @@
 //     console.log(student);
 // })(myName);
 // let student = "Radhika";
+// console.log(student);
 
 
 // let a = [1, 2, 3];
@@ -94,10 +95,10 @@
 // console.log(calculate(4, addOne));
 
 
-// let string = "This is an easy question.";
+// let string = "This is an easy question."; 
 // console.log(string.slice(8, 10));
 
-// let str = "Hello, World";
+// let str = "Hello, World";  
 // console.log(str.indexOf("o"));
 
 // let str = "banana";

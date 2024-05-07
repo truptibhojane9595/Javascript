@@ -1,4 +1,5 @@
-//falsy values =   A falsy value is a value in JavaScript that evaluates to false in a Boolean context,
+//falsy values =   A falsy value is a value in JavaScript that evaluates 
+// to false in a Boolean context,
 //  such as false, 0, '', null, undefined, and NaN.
 
 // let isopen =false;
@@ -23,6 +24,6 @@
 // let msg = "hello" || input;
 // console.log(msg);
 
-let name = "john";
+// let name = "john";
 
 

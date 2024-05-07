@@ -111,7 +111,7 @@
 // const keys = Object.keys(user);
 // console.log(keys);
 // const keys = Object.value(user);
-// console.log(value);
+// console.log(value);A
 
 //..........................for - in loop............................
 // const items={
@@ -132,7 +132,7 @@
 // }
 
 
-// ........................ home work..................................
+// ............................................home work..................................
 
 //create an object with 5 employe salary and 
 // you have to increase the salary by 1000
@@ -149,7 +149,7 @@
 //     console.log(employes[keys]+1000);
 // }
 
-// ............... premative ,non,premataive.......................
+// .................................premative ,non,premataive.......................
 
 // pre = value 
 // non-pre = Reference
@@ -260,7 +260,7 @@
 
 //...............................................Home Work ..................................................
 // let  { cloneDeep: structureClone } = require('lodash');
-
+// const structuredClone= require ("lodash").cloneDeep;
 // const renuka = {
 //     age: 20,
 //     nick: "nenu",
